@@ -82,7 +82,9 @@ img {
     display: none;
 }
 
-
+.header-banner .for-mob {
+    display: none;
+}
 
 
 
@@ -296,31 +298,36 @@ img {
 
 
 /* Products */
-section.products{
+section.products {
     padding: 150px 0;
     background: url(assets/line-texture.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.product-list{
+
+.product-list {
     margin-top: 50px;
 }
+
 .products h1 {
     font-size: 45px;
     font-family: 'TT Supermolot Neue';
     font-weight: 800;
     text-align: center;
 }
-.product-item{
+
+.product-item {
     transition: all linear .2s;
 }
+
 .product-item .prod-name {
     font-size: 24px;
     font-family: 'TT Supermolot Neue';
     text-align: center;
     font-weight: 700;
-}   
+}
+
 .product-item .prod-price {
     font-size: 18px;
     text-align: center;
@@ -328,7 +335,8 @@ section.products{
     color: #666;
     font-family: 'TT Supermolot Neue';
 }
-.product-item .buy-btn{
+
+.product-item .buy-btn {
     text-align: center;
     display: block;
     font-size: 18px;
@@ -338,14 +346,17 @@ section.products{
     opacity: 0;
     transition: all linear .2s;
 }
-.product-item:hover{
+
+.product-item:hover {
     transform: translateY(-20px);
     transition: all linear .2s;
 }
-.product-item:hover .buy-btn{
+
+.product-item:hover .buy-btn {
     opacity: 1;
     transition: all linear .2s;
 }
+
 img.white-series {
     position: absolute;
     top: 50px;
@@ -357,7 +368,7 @@ img.white-series {
 
 
 /* Banners */
-section.banner{
+section.banner {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -365,16 +376,21 @@ section.banner{
     display: flex;
     align-items: center;
     padding: 100px 0;
+    position: relative;
 }
-.whey-banner{
+
+.whey-banner {
     background: url(assets/whey-banner1.png);
 }
-.mass-gain-banner{
+
+.mass-gain-banner {
     background: url(assets/mass-gainer-banner2.png);
 }
-.isolate-banner{
+
+.isolate-banner {
     background: url(assets/isolate-banner1.png);
 }
+
 section.banner h4 {
     font-family: 'TT Supermolot Neue';
     font-size: 65px;
@@ -383,21 +399,25 @@ section.banner h4 {
     margin-top: 30px;
     line-height: 1.1;
 }
+
 section.banner h1 {
     font-family: 'Gimme Danger';
     color: #fff;
 }
+
 section.banner p {
     font-family: 'TT Supermolot Neue';
     font-weight: 500;
     color: #222;
 }
+
 section.banner a {
     font-weight: 800;
     font-size: 30px;
     font-family: 'TT Supermolot Neue';
     color: #fff;
 }
+
 section.banner a::after {
     content: ">>";
     margin-left: 20px;
@@ -412,16 +432,20 @@ footer {
     color: #fff;
     font-family: 'TT Supermolot Neue';
 }
-footer h2{
+
+footer h2 {
     margin-bottom: 12px;
 }
-footer ul li{
+
+footer ul li {
     margin-bottom: 10px;
 }
-.cpy-rght{
+
+.cpy-rght {
     text-align: center;
 }
-.social-links ul{
+
+.social-links ul {
     width: 150px;
 }
 
@@ -452,20 +476,24 @@ footer ul li{
         font-weight: 500;
         line-height: 1;
     }
-    section.banner{
+
+    section.banner {
         height: 600px;
     }
+
     section.banner h1 {
         font-family: 'Gimme Danger';
         color: #fff;
         line-height: 1.7;
         font-size: 30px;
     }
+
     section.banner h4 {
         font-size: 55px;
         margin-top: 10px;
         line-height: 1;
     }
+
     section.banner p {
         color: #333;
         font-size: 14px;
@@ -502,6 +530,44 @@ footer ul li{
 
 @media only screen and (max-width: 767px) {
     .flavor-banner .bg-banner {
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/flavor-banner2-mob.png);
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/flavor-banner2-mob.png);
     }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .logo-nav .logo {
+        width: 120px;
+    }
+
+    .logo-nav {
+        padding: 10px 0;
+    }
+
+    .hamburger svg {
+        width: 30px;
+    }
+
+    .header-banner .for-desktop {
+        display: none;
+    }
+
+    .header-banner .for-mob {
+        display: block;
+    }
+
+    .whey-banner {
+        background: url(assets/whey-banner1-mob.png);
+    }
+    section.banner .row{
+        flex-direction: column;
+    }
+    .banner-text {
+        margin-top: 420px;
+    }
+    section.banner {
+        height: unset;
+    }
+
 }
