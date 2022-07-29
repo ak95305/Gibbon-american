@@ -560,6 +560,12 @@ footer ul li {
     .whey-banner {
         background: url(assets/whey-banner1-mob.png);
     }
+    .mass-gain-banner {
+        background: url(assets/mass-gainer-banner-mob.png);
+    }
+    .isolate-banner {
+        background: url(assets/isolate-banner1-mob.png);
+    }
     section.banner .row{
         flex-direction: column;
     }
