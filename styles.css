@@ -82,8 +82,8 @@ img {
     display: none;
 }
 
-.header-banner .for-mob {
-    display: none;
+header {
+    background: url(assets/banner1.png);
 }
 
 
@@ -560,20 +560,32 @@ footer ul li {
     .whey-banner {
         background: url(assets/whey-banner1-mob.png);
     }
+
     .mass-gain-banner {
         background: url(assets/mass-gainer-banner-mob.png);
     }
+
     .isolate-banner {
         background: url(assets/isolate-banner1-mob.png);
     }
-    section.banner .row{
+
+    section.banner .row {
         flex-direction: column;
     }
+
     .banner-text {
         margin-top: 420px;
     }
+
     section.banner {
         height: unset;
+    }
+
+    section.banner h4 {
+        font-size: 50px;
+    }
+    section.banner h1 {
+        font-size: 26px;
     }
 
 }
