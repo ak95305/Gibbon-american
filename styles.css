@@ -88,7 +88,7 @@ img {
 
 /* Flavors Banner */
 .flavor-banner .bg-banner {
-    background: url(Assets/flavor-banner1.png);
+    background: url(assets/flavor-banner1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center top;
@@ -298,7 +298,7 @@ img {
 /* Products */
 section.products{
     padding: 150px 0;
-    background: url(Assets/line-texture.png);
+    background: url(assets/line-texture.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -367,13 +367,13 @@ section.banner{
     padding: 100px 0;
 }
 .whey-banner{
-    background: url(Assets/whey-banner1.png);
+    background: url(assets/whey-banner1.png);
 }
 .mass-gain-banner{
-    background: url(Assets/mass-gainer-banner2.png);
+    background: url(assets/mass-gainer-banner2.png);
 }
 .isolate-banner{
-    background: url(Assets/isolate-banner1.png);
+    background: url(assets/isolate-banner1.png);
 }
 section.banner h4 {
     font-family: 'TT Supermolot Neue';
@@ -502,6 +502,6 @@ footer ul li{
 
 @media only screen and (max-width: 767px) {
     .flavor-banner .bg-banner {
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(Assets/flavor-banner2-mob.png);
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/flavor-banner2-mob.png);
     }
 }
