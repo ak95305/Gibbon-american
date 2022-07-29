@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    width: 100%
+}
+
+
+
+/* Font Face */
+@font-face {
+    font-family: 'Gimme Danger';
+    src: url(fonts/Gimme\ Danger.ttf);
+}
+
+@font-face {
+    font-family: 'Myriad';
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+
+
+
+
+
+/* Header */
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+
+.logo-nav .logo {
+    width: 250px;
+}
+
+.logo-nav nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo-nav nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-family: 'Gimme Danger';
+    font-size: 10px;
+}
+
+
+.social-links>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.social-links>ul li {
+    min-width: 35px;
+    max-width: 35px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+/* Flavors Banner */
+.flavor-banner .bg-banner {
+    background: url(Assets/flavor-banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    padding: 100px 0;
+}
+
+.flavor-banner h1 {
+    font-family: 'Gimme Danger';
+    line-height: 2;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.flavor-banner p {
+    font-family: 'TT Supermolot Neue';
+    color: #fff;
+}
+
+.flavor-banner .price {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.flavor-input {
+    border: 4px solid #cf0000;
+    background-color: #eee;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.flavor-input select {
+    outline: 0;
+    padding: 5px 10px;
+}
+
+.flavor-input select {
+    outline: 0;
+    padding: 10px 15px;
+    width: 260px;
+    margin-top: 5px;
+    border: none;
+    background: #333;
+    color: #eee;
+    font-family: 'TT Supermolot Neue';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.flavor-input label {
+    display: flex;
+    color: #333;
+    font-weight: 700;
+    font-family: 'TT Supermolot Neue';
+}
+
+.flavor-input button {
+    height: 45px;
+    line-height: 44px;
+    padding: 0 20px;
+    border: none;
+    background: #cf0000;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'TT Supermolot Neue';
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5px;
+}
+
+
+
+/* Nav List */
+.nav-list {
+    /* background: var(--main); */
+    background: #111;
+    height: 120vh;
+    color: #fff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 74%, 0% 90%);
+    transform: translateY(-120%);
+    position: relative;
+    z-index: 998;
+    transition: all cubic-bezier(0, -0.06, 0.13, 0.95) .5s .3s;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-list.active {
+    transform: translateY(0);
+    transition: all ease-in-out .5s .3s;
+}
+
+.nav-list-holder {
+    padding-top: 50px;
+}
+
+.cont-det>div {
+    margin-bottom: 30px;
+}
+
+.con-head {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    opacity: .8;
+}
+
+.con-head::after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-left: 10px;
+}
+
+.con-val {
+    font-size: 25px;
+    max-width: 400px;
+    font-weight: 700;
+}
+
+.con-link {
+    overflow: hidden;
+    width: 160px;
+}
+
+.con-link span {
+    margin-top: 15px;
+    font-weight: 600;
+    transition: all ease-in .2s;
+    display: inline-block;
+    transform: translateX(-31px);
+    width: max-content;
+}
+
+.con-link span::after {
+    content: '\f178';
+    font-family: 'Font Awesome 6 Free';
+    margin-left: 15px;
+}
+
+.con-link span::before {
+    content: '\f178';
+    font-family: 'Font Awesome 6 Free';
+    margin-right: 15px;
+}
+
+.con-link span:hover {
+    transform: translateX(0px);
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+
+.con-val i {
+    margin-right: 20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all ease-in .1s;
+    cursor: pointer;
+}
+
+.con-val i:hover {
+    background: #fff;
+    color: #111;
+    transition: all ease-in .1s;
+}
+
+.nav-links li {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    opacity: 1;
+    cursor: pointer;
+    font-family: 'TT Supermolot Neue';
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.nav-links.active li {
+    opacity: .1;
+}
+
+.nav-links.active li.active {
+    opacity: 1;
+}
+
+
+
+/* Products */
+section.products{
+    padding: 150px 0;
+    background: url(Assets/line-texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.product-list{
+    margin-top: 50px;
+}
+.products h1 {
+    font-size: 45px;
+    font-family: 'TT Supermolot Neue';
+    font-weight: 800;
+    text-align: center;
+}
+.product-item{
+    transition: all linear .2s;
+}
+.product-item .prod-name {
+    font-size: 24px;
+    font-family: 'TT Supermolot Neue';
+    text-align: center;
+    font-weight: 700;
+}   
+.product-item .prod-price {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: #666;
+    font-family: 'TT Supermolot Neue';
+}
+.product-item .buy-btn{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #cf0000;
+    font-family: 'TT Supermolot Neue';
+    opacity: 0;
+    transition: all linear .2s;
+}
+.product-item:hover{
+    transform: translateY(-20px);
+    transition: all linear .2s;
+}
+.product-item:hover .buy-btn{
+    opacity: 1;
+    transition: all linear .2s;
+}
+img.white-series {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 120px;
+}
+
+
+
+
+/* Banners */
+section.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+.whey-banner{
+    background: url(Assets/whey-banner1.png);
+}
+.mass-gain-banner{
+    background: url(Assets/mass-gainer-banner2.png);
+}
+.isolate-banner{
+    background: url(Assets/isolate-banner1.png);
+}
+section.banner h4 {
+    font-family: 'TT Supermolot Neue';
+    font-size: 65px;
+    font-weight: 800;
+    max-width: 600px;
+    margin-top: 30px;
+    line-height: 1.1;
+}
+section.banner h1 {
+    font-family: 'Gimme Danger';
+    color: #fff;
+}
+section.banner p {
+    font-family: 'TT Supermolot Neue';
+    font-weight: 500;
+    color: #222;
+}
+section.banner a {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'TT Supermolot Neue';
+    color: #fff;
+}
+section.banner a::after {
+    content: ">>";
+    margin-left: 20px;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 50px 0;
+    background: #111;
+    color: #fff;
+    font-family: 'TT Supermolot Neue';
+}
+footer h2{
+    margin-bottom: 12px;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+.cpy-rght{
+    text-align: center;
+}
+.social-links ul{
+    width: 150px;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .flavor-banner h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    header .social-links {
+        display: none;
+    }
+
+    .flavor-banner .bg-banner {
+        padding: 50px 0;
+    }
+
+    .flavor-banner h1 {
+        font-size: 20px;
+    }
+
+    .flavor-banner p {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 1;
+    }
+    section.banner{
+        height: 600px;
+    }
+    section.banner h1 {
+        font-family: 'Gimme Danger';
+        color: #fff;
+        line-height: 1.7;
+        font-size: 30px;
+    }
+    section.banner h4 {
+        font-size: 55px;
+        margin-top: 10px;
+        line-height: 1;
+    }
+    section.banner p {
+        color: #333;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .logo-nav nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .flavor-input select {
+        width: 200px;
+        font-size: 11px;
+    }
+
+    .flavor-input label {
+        font-size: 11px;
+    }
+
+    .flavor-input button {
+        font-size: 11px;
+        height: unset;
+        padding: 10px 15px;
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .flavor-banner .bg-banner {
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(Assets/flavor-banner2-mob.png);
+    }
+}

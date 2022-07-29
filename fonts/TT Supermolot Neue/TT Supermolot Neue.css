@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Bold.woff2') format('woff2'),
+        url('TTSupermolotNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Black.woff2') format('woff2'),
+        url('TTSupermolotNeue-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp DBold';
+    src: url('TTSupermolotNeue-ExpDBoldIt.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpDBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpLight.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpRegular.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpMed.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpMed.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpThin.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp DBold';
+    src: url('TTSupermolotNeue-ExpXBold.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpXBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue Exp';
+    src: url('TTSupermolotNeue-ExpXLight.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExpXLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-ExtraBold.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-ExtraLight.woff2') format('woff2'),
+        url('TTSupermolotNeue-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Light.woff2') format('woff2'),
+        url('TTSupermolotNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Medium.woff2') format('woff2'),
+        url('TTSupermolotNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    src: url('TTSupermolotNeue-Regular.woff2') format('woff2'),
+        url('TTSupermolotNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
