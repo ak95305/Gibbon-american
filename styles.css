@@ -294,6 +294,9 @@ img {
     text-align: center;
     margin-bottom: 5px;
 }
+.nav-links li a{
+    color: #fff;
+}
 
 .nav-links.active li {
     opacity: .1;
