@@ -294,7 +294,8 @@ img {
     text-align: center;
     margin-bottom: 5px;
 }
-.nav-links li a{
+
+.nav-links li a {
     color: #fff;
 }
 
@@ -450,12 +451,17 @@ section.banner a::after {
 #whey header nav li a {
     color: #fff;
 }
-.whey-hero-section{
+
+.whey-hero-section {
     height: calc(100vh - 141px);
     display: flex;
     align-items: center;
 }
-.whey-hero-section .banner-text h1, .whey-banner1 h1, .whey-banner2 h1, .whey-banner3 h1 {
+
+.whey-hero-section .banner-text h1,
+.whey-banner1 h1,
+.whey-banner2 h1,
+.whey-banner3 h1 {
     color: #fff;
     font-size: 75px;
     font-family: 'Gimme Danger';
@@ -463,7 +469,8 @@ section.banner a::after {
     line-height: 100px;
 }
 
-.whey-hero-section .banner-text p, .whey-banner1 p {
+.whey-hero-section .banner-text p,
+.whey-banner1 p {
     font-size: 30px;
     font-weight: 800;
     color: #CD8200;
@@ -481,7 +488,8 @@ section.banner a::after {
     margin-top: 50px;
     padding: 25px;
 }
-.whey-hero-section .input-box select{
+
+.whey-hero-section .input-box select {
     background-color: #fff;
     color: #333;
     font-weight: 800;
@@ -489,7 +497,8 @@ section.banner a::after {
     margin: 0;
     font-size: 20px;
 }
-.whey-hero-section .flavor-input .buy-btn a{
+
+.whey-hero-section .flavor-input .buy-btn a {
     padding: 0 20px;
     font-size: 20px;
     display: block;
@@ -499,17 +508,21 @@ section.banner a::after {
     font-weight: 700;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
-.whey-hero-section .whey-details{
+
+.whey-hero-section .whey-details {
     font-family: 'TT Supermolot Neue';
     font-size: 25px;
     color: #fff;
     font-weight: 700;
     margin-top: 50px;
 
-} 
-.whey-banner1, .whey-banner2 ,.whey-banner3{
+}
+
+.whey-banner1,
+.whey-banner2,
+.whey-banner3 {
     height: 100vh;
     background: url(assets/whey-page-banner1.png);
     background-repeat: no-repeat;
@@ -518,46 +531,61 @@ section.banner a::after {
     display: flex;
     align-items: center;
 }
-.whey-banner1 h1, .whey-banner2 h1, .whey-banner3 h1{
+
+.whey-banner1 h1,
+.whey-banner2 h1,
+.whey-banner3 h1 {
     color: #fff;
     font-size: 50px;
     word-spacing: 20px;
     line-height: 100px;
 }
-.whey-banner1 h3, .whey-banner2 h3{
+
+.whey-banner1 h3,
+.whey-banner2 h3 {
     color: #fff;
     font-size: 45px;
     line-height: 1;
     margin: 50px 0;
     font-weight: 700;
 }
-.whey-banner1 p, .whey-banner2 p, .whey-banner3 p{
+
+.whey-banner1 p,
+.whey-banner2 p,
+.whey-banner3 p {
     color: #333;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
     font-family: 'TT Supermolot Neue';
 }
-.whey-banner2{
+
+.whey-banner2 {
     background-image: url(assets/whey-page-banner2.png);
 }
-.whey-banner2 .whey-banner2-text{
+
+.whey-banner2 .whey-banner2-text {
     max-width: 500px;
 }
-.whey-banner2 h1{
+
+.whey-banner2 h1 {
     color: #000;
 }
-.whey-banner2 h3{
+
+.whey-banner2 h3 {
     color: #000;
     margin: 30px 0;
 }
-.whey-banner3{
+
+.whey-banner3 {
     background-image: url(assets/whey-page-banner4.png);
 }
-.whey-banner3 p{
+
+.whey-banner3 p {
     color: #fff;
 }
-.whey-banner3 h1{
+
+.whey-banner3 h1 {
     font-size: 35px;
     line-height: 60px;
     margin-top: 50px;
@@ -853,40 +881,83 @@ footer ul li {
     section.banner h1 {
         font-size: 26px;
     }
+
     #whey header {
         background-image: url('assets/whey-page-banner-without-logo-mob.png');
+        height: unset;
+        padding-bottom: 390px;
     }
-    .whey-hero-section .banner-text h1, .whey-banner1 h1, .whey-banner2 h1, .whey-banner3 h1 {
-        font-size: 40px;
+    .whey-hero-section {
+        height: unset;
+    }
+    .whey-hero-section .banner-text h1,
+    .whey-banner1 h1,
+    .whey-banner2 h1,
+    .whey-banner3 h1 {
+        font-size: 30px;
         margin-bottom: 10px;
-        line-height: 75px;
+        line-height: 65px;
     }
-    .whey-hero-section .banner-text p, .whey-banner1 p {
+
+    .whey-hero-section .banner-text p,
+    .whey-banner1 p {
         font-size: 20px;
         line-height: 1.3;
     }
+
     .whey-hero-section .banner-text .flavor-input {
         border: 5px solid #846220;
         padding: 10px;
         margin-top: 10px;
         gap: 1rem;
     }
+
     .whey-hero-section .input-box select {
         height: 40px;
         font-size: 16px;
         width: 150px;
-    }.whey-hero-section .flavor-input .buy-btn a {
+    }
+
+    .whey-hero-section .flavor-input .buy-btn a {
         font-size: 16px;
         height: 40px;
         padding: 0 15px;
         font-family: 'TT Supermolot Neue';
     }
-    .whey-hero-section{
+
+    .whey-hero-section {
         align-items: flex-start;
     }
+
     .whey-hero-section .whey-details {
         margin-top: 10px;
         font-size: 18px;
+    }
+
+    .whey-banner1 {
+        height: unset;
+        padding: 50px 0;
+    }
+
+    .whey-banner1,
+    .whey-banner2,
+    .whey-banner3 {
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+
+    .whey-banner2 {
+        background-image: url(assets/whey-page-banner2-mob.png);
+        padding-bottom: 460px;
+        height: unset;
+        background-position: bottom;
+    }
+
+    .whey-banner3 {
+        background-image: url(assets/whey-page-banner4-mob.png);
+        padding-bottom: 460px;
+        height: unset;
+        background-position: bottom;
     }
 }
 
