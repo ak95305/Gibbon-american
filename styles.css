@@ -548,6 +548,7 @@ section.banner a::after {
     line-height: 1;
     margin: 50px 0;
     font-weight: 700;
+    font-family: 'TT Supermolot Neue';
 }
 
 .whey-banner1 p,
@@ -819,6 +820,17 @@ footer ul li {
     header {
         height: 600px;
     }
+
+    .whey-banner1 h1,
+    .whey-banner2 h1,
+    .whey-banner3 h1 {
+        font-size: 35px;
+        line-height: 70px;
+    }
+
+    .whey-banner3 {
+        background-position: right;
+    }
 }
 
 
@@ -887,9 +899,11 @@ footer ul li {
         height: unset;
         padding-bottom: 390px;
     }
+
     .whey-hero-section {
         height: unset;
     }
+
     .whey-hero-section .banner-text h1,
     .whey-banner1 h1,
     .whey-banner2 h1,
