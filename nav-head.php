@@ -12,9 +12,8 @@
                 <ul>
                     <li><a href="index">Home</a></li>
                     <li><a href="whey">Whey</a></li>
-                    <li><a href="">Isolates</a></li>
-                    <li><a href="">BCAA</a></li>
-                    <li><a href="">Pre-Workout</a></li>
+                    <li><a href="isolate">Isolates</a></li>
+                    <li><a href="mass-gainer">Mass Gainer</a></li>
                     <li><a href="contact">Contact Us</a></li>
                 </ul>
 
@@ -72,9 +71,8 @@
                             <ul class="nav-links">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="whey.html">Whey</a></li>
-                                <li><a href="">Isolate</a></li>
-                                <li><a href="">BCAA</a></li>
-                                <li><a href="">Pre Workout</a></li>
+                                <li><a href="isolate">Isolate</a></li>
+                                <li><a href="mass-gainer">Mass Gainer</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>

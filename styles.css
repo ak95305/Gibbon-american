@@ -95,29 +95,36 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 }
-header{
+
+header {
     padding-top: 141px;
 }
-.web-header{
+
+.web-header {
     position: fixed;
     top: 0;
     width: 100%;
     left: 0;
     z-index: 999;
 }
-header.white .logo-nav nav li a{
+
+header.white .logo-nav nav li a {
     color: #fff;
 }
-header.dark .logo-nav nav li a{
+
+header.dark .logo-nav nav li a {
     color: #000;
 }
-.dark.active .web-header{
-     background-color: #fff;
+
+.dark.active .web-header {
+    background-color: #fff;
 }
-.white.active .web-header{
-     background-color: #111;
+
+.white.active .web-header {
+    background-color: #111;
 }
-.active .web-header .logo{
+
+.active .web-header .logo {
     width: 150px;
 }
 
@@ -467,7 +474,8 @@ section.banner a::after {
 
 
 /* Whey Page */
-#whey header {
+#whey header,
+.header-banner {
     background: url('assets/whey-page-banner-without-logo.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -475,7 +483,8 @@ section.banner a::after {
     height: 100vh;
 }
 
-.whey-hero-section {
+.whey-hero-section,
+.banner-hero-section {
     height: calc(100vh - 141px);
     display: flex;
     align-items: center;
@@ -484,7 +493,8 @@ section.banner a::after {
 .whey-hero-section .banner-text h1,
 .whey-banner1 h1,
 .whey-banner2 h1,
-.whey-banner3 h1 {
+.whey-banner3 h1,
+.banner-heading {
     color: #fff;
     font-size: 75px;
     font-family: 'Gimme Danger';
@@ -502,7 +512,7 @@ section.banner a::after {
     font-family: 'TT Supermolot Neue';
 }
 
-.whey-hero-section .banner-text .flavor-input {
+.banner-text .flavor-input {
     background: #DDDDDD;
     border: 8px solid #846220;
     display: flex;
@@ -512,7 +522,7 @@ section.banner a::after {
     padding: 25px;
 }
 
-.whey-hero-section .input-box select {
+.flavor-input .input-box select {
     background-color: #fff;
     color: #333;
     font-weight: 800;
@@ -521,7 +531,7 @@ section.banner a::after {
     font-size: 20px;
 }
 
-.whey-hero-section .flavor-input .buy-btn a {
+.flavor-input .buy-btn a {
     padding: 0 20px;
     font-size: 20px;
     display: block;
@@ -534,18 +544,19 @@ section.banner a::after {
     justify-content: center;
 }
 
-.whey-hero-section .whey-details {
+.banner-text .whey-details {
     font-family: 'TT Supermolot Neue';
     font-size: 25px;
     color: #fff;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 10px;
 
 }
 
 .whey-banner1,
 .whey-banner2,
-.whey-banner3 {
+.whey-banner3,
+.page-banner {
     height: 100vh;
     background: url(assets/whey-page-banner1.png);
     background-repeat: no-repeat;
@@ -557,7 +568,8 @@ section.banner a::after {
 
 .whey-banner1 h1,
 .whey-banner2 h1,
-.whey-banner3 h1 {
+.whey-banner3 h1,
+.banner-heading {
     color: #fff;
     font-size: 50px;
     word-spacing: 20px;
@@ -565,7 +577,8 @@ section.banner a::after {
 }
 
 .whey-banner1 h3,
-.whey-banner2 h3 {
+.whey-banner2 h3,
+.page-banner h3 {
     color: #fff;
     font-size: 45px;
     line-height: 1;
@@ -576,7 +589,8 @@ section.banner a::after {
 
 .whey-banner1 p,
 .whey-banner2 p,
-.whey-banner3 p {
+.whey-banner3 p,
+.page-banner p {
     color: #333;
     font-size: 18px;
     font-weight: 500;
@@ -615,14 +629,96 @@ section.banner a::after {
     margin-top: 50px;
 }
 
+.banner-text {
+    padding: 20px 0;
+}
 
+/* Isolate */
+#isolate header {
+    background-image: url(assets/isolate-page-banner1.png);
+}
 
+.banner-hero-section p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'TT Supermolot Neue';
+}
 
+.isolate-hero-section .banner-text .flavor-input {
+    border-color: #1A7499;
+}
 
+.isolate-hero-section .flavor-input .buy-btn a {
+    background: #1A7499;
+}
 
+.isolate-banner1 {
+    background-image: url(assets/isolate-page-banner2.png);
+}
 
+.isolate-banner1 h1,
+.isolate-banner1 h3 {
+    color: #000;
+}
 
+.isolate-banner2 {
+    background-image: url(assets/isolate-page-banner3.png);
+}
 
+.isolate-banner3 {
+    background-image: url(assets/isolate-page-banner4.png);
+    height: 500px;
+}
+
+.isolate-banner3 h1, .mass-gainer-banner3 h1 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 2;
+}
+
+.isolate-banner3 .buy-btn, .mass-gainer-banner3 .buy-btn {
+    background: #fff;
+    padding: 10px 20px;
+    color: #1A7499;
+    display: block;
+    width: fit-content;
+    font-weight: 700;
+    font-family: 'TT Supermolot Neue';
+    margin: auto;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+/* Mass Gainer */
+#mass-gainer header {
+    background-image: url(assets/mass-gainer-page-banner1.png);
+}
+
+.mass-gainer-hero-section .banner-text .flavor-input {
+    border-color: #A03D18;
+}
+
+.mass-gainer-hero-section .flavor-input .buy-btn a {
+    background: #A03D18;
+}
+.mass-gainer-banner1{
+    background-image: url(assets/mass-gainer-page-banner2.png);
+}
+.mass-gainer-banner1 h1, .mass-gainer-banner1 h3{
+    color: #000;
+}
+.mass-gainer-banner2{
+    background-image: url(assets/mass-gainer-page-banner3.png);
+}
+.mass-gainer-banner3{
+    background-image: url(assets/mass-gainer-page-banner4.png);
+    height: 500px;
+}
+.mass-gainer-banner3 .buy-btn{
+    color: #A03D18;
+}
 
 
 /* Footer */
@@ -842,7 +938,8 @@ footer ul li {
 
     .whey-banner1 h1,
     .whey-banner2 h1,
-    .whey-banner3 h1 {
+    .whey-banner3 h1,
+    .banner-heading {
         font-size: 35px;
         line-height: 70px;
     }
@@ -877,9 +974,37 @@ footer ul li {
         padding: 10px 15px;
         line-height: 1.2;
     }
+
+    .page-banner h3 {
+        margin: 20px 0;
+    }
+
+    .banner-hero-section .banner-text .flavor-input {
+        border-width: 6px;
+        padding: 10px;
+        margin-top: 10px;
+        gap: 1rem;
+    }
+
+    .banner-hero-section .input-box select {
+        height: 40px;
+        font-size: 17px;
+        width: 180px;
+    }
+
+    .banner-hero-section .flavor-input .buy-btn a {
+        font-size: 17px;
+        height: 40px;
+        padding: 0 15px;
+        font-family: 'TT Supermolot Neue';
+    }
+    .banner-text .whey-details{
+        font-size: 20px;
+    }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #home header {
         background-image: url(assets/banner1-mob.png);
     }
@@ -919,62 +1044,76 @@ footer ul li {
         padding-bottom: 390px;
     }
 
-    .whey-hero-section {
+    #isolate header {
+        background-image: url('assets/isolate-page-banner1-mob.png');
+        height: unset;
+        padding-bottom: 390px;
+    }
+    #mass-gainer header {
+        background-image: url('assets/mass-gainer-page-banner1-mob.png');
+        height: unset;
+        padding-bottom: 390px;
+    }
+    .banner-hero-section {
         height: unset;
     }
 
     .whey-hero-section .banner-text h1,
     .whey-banner1 h1,
     .whey-banner2 h1,
-    .whey-banner3 h1 {
+    .whey-banner3 h1,
+    .banner-heading {
         font-size: 30px;
         margin-bottom: 10px;
         line-height: 65px;
     }
 
     .whey-hero-section .banner-text p,
-    .whey-banner1 p {
+    .whey-banner1 p,
+    .banner-hero-section .banner-text p {
         font-size: 20px;
         line-height: 1.3;
     }
 
-    .whey-hero-section .banner-text .flavor-input {
-        border: 5px solid #846220;
+    .banner-hero-section .banner-text .flavor-input {
+        border-width: 5px;
         padding: 10px;
         margin-top: 10px;
         gap: 1rem;
     }
 
-    .whey-hero-section .input-box select {
+    .banner-hero-section .input-box select {
         height: 40px;
         font-size: 16px;
         width: 150px;
     }
 
-    .whey-hero-section .flavor-input .buy-btn a {
+    .banner-hero-section .flavor-input .buy-btn a {
         font-size: 16px;
         height: 40px;
         padding: 0 15px;
         font-family: 'TT Supermolot Neue';
     }
 
-    .whey-hero-section {
+    .banner-hero-section {
         align-items: flex-start;
     }
 
-    .whey-hero-section .whey-details {
+    .banner-hero-section .whey-details {
         margin-top: 10px;
         font-size: 18px;
     }
 
-    .whey-banner1 {
+    .whey-banner1,
+    .page-banner {
         height: unset;
         padding: 50px 0;
     }
 
     .whey-banner1,
     .whey-banner2,
-    .whey-banner3 {
+    .whey-banner3,
+    .page-banner {
         align-items: flex-start;
         padding-top: 50px;
     }
@@ -992,6 +1131,22 @@ footer ul li {
         height: unset;
         background-position: bottom;
     }
+
+    .isolate-banner2 {
+        background-image: url(assets/isolate-page-banner3-mob.png);
+        height: 557px;
+        background-size: cover;
+        background-position: top center;
+    }
+    .mass-gainer-banner2{
+        background-image: url(assets/mass-gainer-page-banner3-mob.png);
+        padding-bottom: 460px;
+        height: unset;
+        background-position: bottom;
+    }
+    .mass-gainer-banner2 p{
+        color: #fff;
+    }
 }
 
 
@@ -1005,5 +1160,9 @@ footer ul li {
     .hamburger svg {
         width: 30px;
     }
-
+    .isolate-banner3 h1, .mass-gainer-banner3 h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 2;
+    }
 }

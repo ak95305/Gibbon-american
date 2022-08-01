@@ -1,18 +1,18 @@
 <?php include_once 'header.php' ?>
 
 
-<div id="whey">
+<div id="isolate">
 
-    <header class="white" id="header">
+    <header class="white header-banner" id="header">
 
         <?php include_once 'nav-head.php' ?>
 
-        <div class="whey-hero-section">
+        <div class="isolate-hero-section banner-hero-section">
             <div class="container-xl">
                 <div class="row">
                     <div class="col-12">
                         <div class="banner-text">
-                            <h1>The Whey</h1>
+                            <h1 class="banner-heading">The Isolate</h1>
                             <p>Lean Muscle Gain</p>
                             <p>Muscle Recovery</p>
                             <p>Fast Absorbic Formula</p>
@@ -41,18 +41,14 @@
 
 
 
-    <div class="whey-banner1">
+    <div class="isolate-banner1 page-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-lg-6 offset-md-4 offset-lg-6">
+                <div class="col-12">
                     <div class="whey-banner1-text">
-                        <h1>Best Partner With Fitness</h1>
-                        <h3>GREAT TASTING MUSCLE-BUILDING WHEY!</h3>
-                        <p>The Whey is an ultra premium whey protein with flavoring that’s simply whey too good!
-                            Each scoop comes packed with 24 grams of delicious whey protein. And it delivers all the
-                            building blocks you need to support new muscle growth, improved strength, and fast
-                            recovery. Branched chain amino acids (BCAAs), essential amino acids (EAAs), and
-                            glutamine precursors. If your muscles need it, you’ll find it in The Whey.</p>
+                        <h1 class="banner-heading">SCIENCE-DRIVEN</h1>
+                        <h3>Premium Isolate Protein</h3>
+                        <p style="max-width: 650px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales tellus tellus eu eleifend. Pretium lacus, nunc integer placerat. Quam nisl laoreet dolor nec non, ornare nibh ut. Amet faucibus sagittis sed posuere neque, vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales tellus tellus eu eleifend. Pretium lacus, nunc integer placerat. Quam nisl laoreet dolor nec non, ornare nibh ut. Amet faucibus sagittis sed posuere neque, vitae.</p>
                     </div>
                 </div>
             </div>
@@ -60,12 +56,12 @@
     </div>
 
 
-    <div class="whey-banner2">
+    <div class="isolate-banner2 page-banner">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="whey-banner2-text">
-                        <h1>
+                    <!-- <div class="whey-banner2-text">
+                        <h1 class="banner-heading">
                             PURELY INDULGENT FLAVORING!
                         </h1>
                         <h3>
@@ -77,38 +73,21 @@
                             guarantee 100% True Whey™ won’t be one of those. Our flavoring experts nailed the
                             flavoring for you with The Whey, and we know you’re going to love it when you try it.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="whey-banner3">
+    <div class="isolate-banner3 page-banner">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-6 offset-md-4 offset-lg-6">
-                    <div class="whey-banner3-text">
-                        <h1>MADE IN USA</h1>
-                        <p>When you’re choosing a protein powder, it’s important to choose one that you can trust
-                            and feel safe using. That’s why The Whey is manufactured in a cGMP facility. This means
-                            The Whey is produced under the absolute safest manufacturing conditions. And, it’s
-                            guaranteed to be free of banned and adulterated substances
-                        </p>
-                        <h1>QUALITY YOU CAN TRUST</h1>
-                        <p>Each scoop of The Whey delivers a minimum 4.9 grams of naturally occurring BCAAs and 3.8+
-                            grams of glutamine precursors. These aminos can get stripped from your muscles during
-                            intense workouts, making them crucial for recovery. Plus, The Whey provides 10.7+ grams
-                            of Essential Amino Acids, and high levels of L-leucine to help kickstart muscle protein
-                            synthesis and rebuild muscle.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <h1 class="banner-heading">
+                KILL EVERY <br> WORKOUT
+            </h1>
+            <a href="" class="buy-btn">Buy Now</a>
         </div>
     </div>
-
 
 </div>
 
